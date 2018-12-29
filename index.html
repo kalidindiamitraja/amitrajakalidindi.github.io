@@ -8,12 +8,38 @@
 			background-color: #6699CC;
 
 		      }
+	h2  {
+            -moz-animation-duration: 3s;
+            -webkit-animation-duration: 3s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+         }
+         @-moz-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:50%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:50%;
+               width:100%;
+            }
+         }
 	</style>
     </head>
     <body>
 	<center><h1>PORTFOLIO</h1></center>
 	<center><img src="index.jpg" style="border-radius: 50%;width: 350px;height: 350px"></center>
-	<center><h2>Kalidindi Amit Raja</h2></center>
+	<h2>Kalidindi Amit Raja</h2>
 	<center><a href="gallery.html"><button>Gallery</button></a><br><br>
 	<div>
 	<center>
