@@ -19,7 +19,8 @@
     <body>
 	<center><h1>PORTFOLIO</h1></center>
 	<center><img src="index.jpg" style="border-radius: 50%;width: 350px;height: 350px"></center><br>
-	<center><h2>Kalidindi Amit Raja</h2></center><br>
+	<center><h2>Kalidindi Amit Raja</h2></center>
+	<center><h6 id="test">Studies at Amrita University</h6></center>
 	<center><a href="gallery.html"><button class="btn btn-outline-dark">Gallery</button></a><br><br>
 	<div>
 	<center>
@@ -29,5 +30,11 @@
 	<a href="https://twitter.com/AmitKalidindi" target="blank" class="fa fa-twitter" style="font-size:40px;color:black"></a>	
 	</center>
 	</div>
+	<script>
+		function myfuncone() {
+			document.getElementById("test").innerHTML = "Member at FOSS club";
+		};
+		setTimeout(myfuncone, 3000);
+	</script>
     </body>
 </html>
